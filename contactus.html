@@ -1,0 +1,141 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container navbar">
+
+        <div class="row">
+        <div class="col-md-3">
+      
+        
+    
+
+     <img id="logo" src="img/logo_finish1.jpg" style="width: 200px;height:200px;">
+    
+     </div>
+
+<div class= "topnav col-md-9"  id= "mytopnav">
+
+    <a href= "index.html">Home</a>
+    <a href= "AboutUs.html">About Us</a>
+    <a href= "Menu.html">Menu</a>
+    <a href= "ContactUs.html">Contact Us</a>
+</div>
+            </div>
+        </div>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAqqu04CmF7RG1HXQCPnHRdEV_GCOY0ZiA'></script><div style='overflow:hidden;height:400px;width:400px;'><div id='gmap_canvas' style='height:400px;width:400px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://add-map.org/'>Add-Map</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=bc5a03f16360bd20a7ed963f648df616f95b0e1d'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(40.0818295,-88.29605179999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.0818295,-88.29605179999999)});infowindow = new google.maps.InfoWindow({content:'<strong>El Patio Mexican Restaurant</strong><br>2506 Village Green Place<br>61822 Champaign <br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            </div>
+        </div>
+    </div>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Form Validation</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <h1>Please tell us what you think</h1>
+                <form id="email_form" class="form" action="join.html" method="get">
+                    
+                    <div class="form-group">
+                        <label for="email_1">Email Address:</label>
+                        <input type="text" class="form-control" name="email_1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email_2">Confirm Email Address:</label>
+                        <input type="text" class="form-control" name="email_2">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="first_name">Name:</label>
+                        <input type="text" class="form-control" name="full_name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address_1">Address Line 1:</label>
+                        <input type="text" class="form-control" name="address_1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address_2">Address Line 2:</label>
+                        <input type="text" class="form-control" name="address_2">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" class="form-control" name="city">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" class="form-control" name="phone">
+                    </div>
+
+                    <button type="submit" id="join" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <!-- this is the jQuery CDN reference. You need internet access for this file! -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+  <!-- JS -->
+    <!-- this is the jQuery CDN reference. You need internet access for this file! -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>

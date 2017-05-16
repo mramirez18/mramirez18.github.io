@@ -18,6 +18,8 @@ html {
 
 body {
     margin: 0;
+    background-color: blue;
+    
 }
 
 
@@ -27,13 +29,16 @@ body {
   padding-top: 60px;
   padding-bottom: 40px;
   margin: top;
+  width: 100%;
+  font: arial bold;
+  
   
    
 
 }
 
 .topnav a {
-  float: right;
+  float: left;
   display: block;
   color: black;
   text-align: center;
@@ -41,6 +46,11 @@ body {
   text-decoration: none;
   font-size: 17px;
   
+}
+.navbar {
+  background-color: greenyellow;
+  width: 100%;
+
 }
 
 
@@ -64,6 +74,8 @@ label.error {
 #logo {
   position: relative;
 }
+
+
 
 
 
